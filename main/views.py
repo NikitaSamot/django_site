@@ -1,12 +1,9 @@
 from django.shortcuts import render
-from goods.models import Categories
+
 # Create your views here.
 def index(request):
-    categories = Categories.objects.all()
-    
     context = {
-        'text_h1': 'Мага мебели',
-        'categories': categories
+        'text_h1': 'Мага мебели'
     }
     return render(request, 'main/index.html', context)
 
