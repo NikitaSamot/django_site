@@ -1,7 +1,8 @@
-{% extends "main/base.html" %}
+{% extends "base.html" %}
 {% load static %}
+
 {% block css %}
-<link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
+  <link rel="stylesheet" href="{% static "deps/css/my_footer_css.css" %}">
 {% endblock css %}
 
 {% block content %}
@@ -10,8 +11,8 @@
 
 {% block footer %}
 <footer class="py-4 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">Права Защищены мной &copy; СНЮ</p>
-    </div>
+  <div class="container">
+    <p class="m-0 text-center text-white">Права Защищены мной &copy; СНЮ</p>
+  </div>
 </footer>
 {% endblock footer %}
