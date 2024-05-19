@@ -1,4 +1,3 @@
-from re import M
 from django.db import models
 from goods.models import Products
 from users.models import User
