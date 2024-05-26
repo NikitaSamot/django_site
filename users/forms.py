@@ -1,4 +1,3 @@
-from importlib.metadata import requires
 from django import forms
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm, UserChangeForm
 
